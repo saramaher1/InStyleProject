@@ -1,0 +1,40 @@
+.v-container{
+  width: 100%;
+  margin-top: 18px;
+}
+
+.vote-container {
+  
+
+  font-family: var(--font-funny);
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+ padding-bottom: 9px;
+
+
+}
+
+.vote-container p {
+  font-size: 18px;
+  text-align: center;
+}
+
+#vote-separator {
+  background-color: grey;
+  width: 1px;
+  height: 40px;
+}
+
+.vote-container-item{
+ 
+  display: flex;
+  flex-direction: column;
+  gap:6px;
+  color: rgb(177, 174, 174);
+}

@@ -1,0 +1,58 @@
+.upload-box{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 100%;
+
+    margin: 20px 0;
+}
+
+
+
+.overlay-form-group{
+    display: flex;
+    flex-direction: ;
+    
+    width: 310px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.form-group{
+    margin: 5px 0;
+}
+
+.form-control{    
+    border:0px;
+    border-radius: 7px;
+    width: 300px;
+}
+
+::placeholder{  
+    padding:7px 10px;  
+}
+
+input{
+    
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+    border:0px;
+    border-radius: 7px;
+    width: 90%;
+    padding: 10px 0 10px 10px;
+    box-shadow: inset 1px 1px 4px  rgba(128, 128, 128, 0.384);
+    
+}
+
+.overlay-form button{
+    margin-top: 9px;
+    align-self: center;
+    width: 100%;
+}
+
+label{
+    margin: 3px;
+}

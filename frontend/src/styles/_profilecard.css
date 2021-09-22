@@ -1,0 +1,97 @@
+.profilecard-header {
+
+  background-color: rgba(0, 0, 0, 0.103);
+  position: absolute;
+    
+  width: 100%;
+  height:fit-content;
+ 
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-evenly;
+  gap: 12px;
+
+  border-radius: 25px 25px 0 0;
+
+  z-index: 2;
+}
+
+.score {
+  text-align: center;
+  font-style: var(--font-classy);
+  font-size: var(--font-L);
+}
+
+.score-separator{
+  position: absolute;
+  top:10px;
+  bottom:10px;
+  background-color: rgba(255, 255, 255, 0.568);
+
+  width:1px ;
+  
+} 
+
+.profilecard-left,
+.profilecard-right {
+  
+  color: white;
+  text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.651);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px ;
+
+  width: minmax(min-content, 50%);
+
+  margin: 0;
+  padding: 12px 0;
+  
+}
+
+.profilecard-left img,
+.profilecard-right img {
+  width: 30px;
+  
+}
+
+.profilecard-footer{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 8px ;
+}
+
+
+.score-timestamp{
+  color: grey;
+  text-align: right;
+  margin-right: 25px ;
+  
+}
+
+.votecomponent-onpicture{
+  background-color: rgba(255, 255, 255, 0.658);
+  position: absolute;
+  
+  top:200px;
+  width:100%;
+}
+.votecomponent-onpicture p {
+  color: rgb(88, 88, 88);
+}
+
+@media screen and (min-width: 800px) {
+
+  .votecomponent-onpicture{
+
+    top:276px;
+
+  }
+
+
+}

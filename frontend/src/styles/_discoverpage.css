@@ -1,0 +1,18 @@
+.homepage-content{
+    
+    align-items: center;
+  
+   
+}
+
+.homepage-submit-container{
+     display: grid;
+    justify-items: center;
+}
+.homepage-submit-container img{
+    z-index: 1;
+    width :0%;
+}
+
+
+
